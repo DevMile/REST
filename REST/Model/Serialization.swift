@@ -22,7 +22,7 @@ extension RawRepresentable where RawValue == String {
 }
 
 protocol SerializationValue {}
-
+// Select types to be used
 extension Bool: SerializationValue {}
 extension String: SerializationValue {}
 extension Int: SerializationValue {}

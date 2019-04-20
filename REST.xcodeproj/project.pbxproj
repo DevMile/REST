@@ -15,6 +15,8 @@
 		23FAC54C226B9FFD00A3648D /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FAC54B226B9FFD00A3648D /* Question.swift */; };
 		23FAC54F226BA07800A3648D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FAC54E226BA07800A3648D /* User.swift */; };
 		23FAC551226BA25C00A3648D /* Serialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FAC550226BA25C00A3648D /* Serialization.swift */; };
+		23FAC556226BAC5E00A3648D /* ApiResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FAC555226BAC5E00A3648D /* ApiResource.swift */; };
+		23FAC558226BAD0500A3648D /* ApiWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FAC557226BAD0500A3648D /* ApiWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		23FAC54B226B9FFD00A3648D /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		23FAC54E226BA07800A3648D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		23FAC550226BA25C00A3648D /* Serialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serialization.swift; sourceTree = "<group>"; };
+		23FAC555226BAC5E00A3648D /* ApiResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResource.swift; sourceTree = "<group>"; };
+		23FAC557226BAD0500A3648D /* ApiWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 				23FAC54B226B9FFD00A3648D /* Question.swift */,
 				23FAC54E226BA07800A3648D /* User.swift */,
 				23FAC550226BA25C00A3648D /* Serialization.swift */,
+				23FAC557226BAD0500A3648D /* ApiWrapper.swift */,
+				23FAC555226BAC5E00A3648D /* ApiResource.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -178,6 +184,8 @@
 			files = (
 				23FAC54F226BA07800A3648D /* User.swift in Sources */,
 				23FAC54C226B9FFD00A3648D /* Question.swift in Sources */,
+				23FAC558226BAD0500A3648D /* ApiWrapper.swift in Sources */,
+				23FAC556226BAC5E00A3648D /* ApiResource.swift in Sources */,
 				23FAC53C226B9A8C00A3648D /* ViewController.swift in Sources */,
 				23FAC551226BA25C00A3648D /* Serialization.swift in Sources */,
 				23FAC53A226B9A8C00A3648D /* AppDelegate.swift in Sources */,
