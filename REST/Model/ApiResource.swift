@@ -36,12 +36,3 @@ extension ApiResource {
         return wrapper.items.map(makeModel(serialization:))
     }
 }
-
-// Questions Resource
-struct QuestionsResource: ApiResource {
-    let methodPath = "/questions"
-    
-    func makeModel(serialization: Serialization) -> Question {
-        return Question(serialization: serialization)
-    }
-}
